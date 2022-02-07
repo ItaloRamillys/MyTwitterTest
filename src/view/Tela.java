@@ -4,7 +4,7 @@ import java.awt.BorderLayout;
 import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import javafx.scene.layout.Border;
+
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -88,7 +88,7 @@ public class Tela extends JFrame{
             if(txtLogin.getText().equals("Admin") && txtSenha.getText().equals("1234")){
                 JOptionPane.showMessageDialog(null, "Logado");
             }else{
-                JOptionPane.showMessageDialog(null, "Login inv√°lido");
+                JOptionPane.showMessageDialog(null, "Login inv·lido");
             }
         }
         

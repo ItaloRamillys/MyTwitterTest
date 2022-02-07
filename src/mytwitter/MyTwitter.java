@@ -53,7 +53,8 @@ public class MyTwitter implements ITwitter{
             menu += "\n====================================";
             
             String op = JOptionPane.showInputDialog(menu);
-            
+
+            //Controle principal
             switch(op){
             	case "":
             		JOptionPane.showMessageDialog(null,"Obrigado por usar o MyTwitter");
